@@ -20,7 +20,6 @@ public class PlayerHealt : MonoBehaviour
     void Update()
     {
         if(health < 0){
-            Debug.Log("A");
             //Remove o player
             gameObject.SetActive(false);
             SceneManager.LoadScene("Main menu");
